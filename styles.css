@@ -1,0 +1,55 @@
+body {
+background-color: rgb(0,0,0);
+font-family: bender;
+}
+header {
+background-color: rgb(28, 26, 26);
+text-align: center;
+}
+h1 {
+color: rgb(242, 7, 7);
+}
+h2 {
+color: rgb(242,7,7);
+}
+p {
+color: rgb(242, 7, 7);
+}
+#MainContent {
+background-color: rgb(22, 33, 51);
+}
+#MainContent h1 {
+text-align: center;
+}
+#MainContent p {
+text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+#footerFoot {
+text-align:center;
+background-color:rgb(58, 26, 74);
+}
+#SpeshulText {
+color: rgb(162, 160, 163);
+}
