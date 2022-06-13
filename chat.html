@@ -12,6 +12,9 @@
           console.log( "!test was typed in chat" );
         }
       }
+      ComfyJS.onChat = ( user, message, flags, self, extra ) => {
+  console.log( user, message );
+}
       ComfyJS.Init( "achefxa" );
     </script>
 </body>
