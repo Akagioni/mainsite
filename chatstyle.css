@@ -1,0 +1,72 @@
+html,
+        body {
+            margin: 0;
+            font-family: bender;
+            color: hsl(197, 62%, 32%);
+        }
+
+        #chat {
+            width: 400px;
+            height: 350px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        #chat::-webkit-scrollbar {
+            display: none;
+        }
+
+        #chat ul {
+            list-style-type: none;
+            list-style-position: outside;
+        }
+
+        #chat li {
+            /*background-color: hsl(196, 58%, 93%);*/
+            background-color:transparent;
+            box-sizing: border-box;
+            padding: 1rem 10px;
+            margin-bottom: 10px;
+            border: 2px solid;
+            border-radius: 5px;
+        }
+
+        #chat li.mod {
+            /*background-color: hsl(166, 60%, 93%);*/
+            background-color:transparent;
+            color: hsl(166, 62%, 32%);
+        }
+
+        #chat li.sub {
+            /*background-color: hsl(235, 61%, 93%);*/
+            background-color:transparent;
+            color: hsl(235, 62%, 32%);
+        }
+
+        #chat blockquote {
+            font-size: 1.2rem;
+        }
+
+        /* Animation */
+        @keyframes slide-in-left {
+            from {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        #chat li:not(:last-of-type) {
+            opacity: 0;
+        }
+
+        #chat li:last-of-type {
+            animation-name: slide-in-left;
+            animation-duration: 0.15s;
+            animation-timing-function: ease-in;
+        }
