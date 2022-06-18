@@ -2,7 +2,7 @@ html,
         body {
             margin: 0;
             font-family: bender;
-            color: hsl(197, 62%, 32%);
+            color: #17D4FE;
         }
 
         #chat {
@@ -35,13 +35,13 @@ html,
         #chat li.mod {
             /*background-color: hsl(166, 60%, 93%);*/
             background-color:transparent;
-            color: hsl(166, 62%, 32%);
+            color: #17D4FE;
         }
 
         #chat li.sub {
             /*background-color: hsl(235, 61%, 93%);*/
             background-color:transparent;
-            color: hsl(235, 62%, 32%);
+            color: #17D4FE;
         }
 
         #chat blockquote {
