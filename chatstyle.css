@@ -3,7 +3,6 @@ html,
             margin: 0;
             font-family: bender;
             color: hsl(197, 62%, 32%);
-            font-size: 5rem;
         }
 
         #chat {
@@ -47,7 +46,7 @@ html,
         }
 
         #chat blockquote {
-            font-size: 1.2rem;
+            font-size: 2rem;
         }
 
         /* Animation */
